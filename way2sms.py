@@ -12,7 +12,6 @@ from gi.repository import Gtk, GObject, Gdk
 
 """
 This block sets the path to gtkbuild file
-
 """
 argv = sys.argv[0]
 splits = argv.split('/')
