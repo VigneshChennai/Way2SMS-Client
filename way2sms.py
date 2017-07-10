@@ -73,6 +73,7 @@ class Way2smsService:
         
 class UI:
     sms_service = None
+	
     @contextmanager
     def ui_lock(self):
         Gdk.threads_enter()
